@@ -1,5 +1,5 @@
 # Problem = 5:
-# Problem name: Positive Sweping.
+# Problem name: Positive Spewing.
 try:
     for _ in range(int(input())):
         n,s=map(int,input().split())
