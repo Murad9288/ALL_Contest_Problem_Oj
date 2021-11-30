@@ -1,1 +1,0 @@
-# A. Domino Disaster:for _ in range(int(input())):    n = int(input())    s = str(input())    li = ""    for i in s:        if i == "U":            li += "D"        elif i == "D":            li += "U"        else:            li += i    print(li)
