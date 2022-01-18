@@ -1,0 +1,17 @@
+try:
+    for _ in range(int(input())):
+        a,b,c = map(float,input().split())
+        if a>50 and b<0.7 and 5600<c:
+            print(10)
+        elif a>50 and b<0.7:
+            print(9)
+        elif b<0.7 and c>5600:
+            print(8)
+        elif a>50 and c>5600:
+            print(7)
+        elif a>50 or b<0.7 or 5600<c:
+            print(6)
+        else:
+            print(5)
+except:
+    pass
