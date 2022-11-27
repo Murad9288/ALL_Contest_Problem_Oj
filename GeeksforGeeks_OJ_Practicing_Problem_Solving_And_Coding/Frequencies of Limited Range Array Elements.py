@@ -1,3 +1,5 @@
+# Freauence of Limited Problem..
+
 for _ in range(int(input())):
     N = int(input())
     arr = [int(x) for x in input().strip().split()]
@@ -18,3 +20,6 @@ for _ in range(int(input())):
         arr[i] = arr[i]//N
     for k in arr:
         print(k,end=" ")
+
+        
+  
